@@ -94,6 +94,11 @@
         "id": "preview-range",
         "status": "remediated",
         "summary": "Python basic HTTP preview did not support audio seeking; use standard http-server with byte-range support."
+      },
+      {
+        "id": "offline-recording-copy",
+        "status": "remediated",
+        "summary": "At user request, the backstage recording section explicitly explains offline synthesis on owned hardware, script custody during recording, and no external speech service or cloud API. This claim concerns recording, not GitHub Pages hosting."
       }
     ],
     "remediation_items": [],
