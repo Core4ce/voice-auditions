@@ -14,14 +14,15 @@
       "All54 local Kokoro presets recorded on Sunset using agreed passage",
       "Voice cards, gender/accent/language filters, sorting, Play All and Lucky",
       "History, punctuation guide, provenance and installation instructions",
-      "Public GitHub repository and Pages publication authorized by user"
+      "Public GitHub repository and Pages publication authorized by user",
+      "User-directed transfer to public Core4ce/voice-auditions, retaining MIT licensing and verifying the new Pages URL."
     ],
     "non_goals": [
       "Paid services",
       "New models or voice cloning",
       "Runtime servers or unrelated host changes"
     ],
-    "status": "complete",
+    "status": "in_progress",
     "stop_lines": [
       {
         "id": "bounds",
@@ -48,6 +49,12 @@
         "id": "publish",
         "title": "Verify and publish GitHub Pages",
         "status": "complete"
+      },
+      {
+        "slice_id": 4,
+        "id": "core4ce-transfer",
+        "title": "Transfer ownership and verify organization Pages publication",
+        "status": "in_progress"
       }
     ],
     "review_gates": [
@@ -82,6 +89,16 @@
           "Public URL loads matching published commit and audio plays"
         ],
         "evidence": "GitHub Actions run35653054590 succeeded deploying2de9b13763cdfb263327c6ccffa9e80ca57b508c. Public HTTP200, published source byte parity, all54 audio URLs, and all4 live browser tests passed."
+      },
+      {
+        "id": "core4ce-publication",
+        "name": "Core4ce Pages and MIT license",
+        "kind": "evidence-gate",
+        "status": "pending",
+        "expectations": [
+          "Public Core4ce repository recognized as MIT",
+          "Organization Pages URL serves updated source and working audio"
+        ]
       }
     ],
     "evidence_expectations": [
@@ -107,7 +124,7 @@
       "Human listening preference remains subjective"
     ],
     "closeout": {
-      "state": "complete",
+      "state": null,
       "summary": "Published54 Sunset-recorded voice auditions with Broadway-inspired gallery, filters, sorting, favorites, queue, lucky selection, original-film history and reproducible installation.",
       "proof_level": "automated-recording-and-live-browser-verification",
       "validation_commands": [

@@ -5,7 +5,7 @@
 A Broadway-inspired casting room for Kokoro voices, recorded locally on a Mac
 Studio and published as a static GitHub Pages site.
 
-**[Enter the casting room →](https://bokmann.github.io/voice-auditions/)**
+**[Enter the casting room →](https://core4ce.github.io/voice-auditions/)**
 
 ## What you can do
 
@@ -73,7 +73,7 @@ PLAYWRIGHT_CHANNEL=chrome npm test
 
 Browser tests cover filters, favorites, sorting, actual MP3 playback, automatic
 queue progression, random selection, missing audio, mobile overflow and keyboard
-activation. `TEST_BASE_URL=https://bokmann.github.io/voice-auditions/ npm test`
+activation. `TEST_BASE_URL=https://core4ce.github.io/voice-auditions/ npm test`
 runs the same checks against the live site. Tests mute their player.
 
 ## Publish with GitHub Pages
