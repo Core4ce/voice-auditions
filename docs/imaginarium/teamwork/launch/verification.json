@@ -26,6 +26,25 @@
     "scope": "Chromium via installed Google Chrome, not all-browser or full human listening acceptance"
   },
   "publication": {
-    "status": "pending"
+    "status": "passed",
+    "url": "https://bokmann.github.io/voice-auditions/",
+    "runId": 35653054590,
+    "siteCommit": "2de9b13763cdfb263327c6ccffa9e80ca57b508c",
+    "httpStatus": 200,
+    "liveBrowserTests": {
+      "passed": 4,
+      "failed": 0,
+      "seconds": 15.6
+    },
+    "byteParity": [
+      "index.html",
+      "app.js",
+      "styles.css",
+      "voices.json",
+      "recordings.json",
+      "credits.html",
+      "audio/af_alloy.mp3"
+    ],
+    "audioFilesServed": 54
   }
 }

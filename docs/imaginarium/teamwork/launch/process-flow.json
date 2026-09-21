@@ -21,7 +21,7 @@
       "New models or voice cloning",
       "Runtime servers or unrelated host changes"
     ],
-    "status": "in_progress",
+    "status": "complete",
     "stop_lines": [
       {
         "id": "bounds",
@@ -47,7 +47,7 @@
         "slice_id": 3,
         "id": "publish",
         "title": "Verify and publish GitHub Pages",
-        "status": "in_progress"
+        "status": "complete"
       }
     ],
     "review_gates": [
@@ -77,10 +77,11 @@
         "id": "publication",
         "name": "Live Pages",
         "kind": "evidence-gate",
-        "status": "pending",
+        "status": "passed",
         "expectations": [
           "Public URL loads matching published commit and audio plays"
-        ]
+        ],
+        "evidence": "GitHub Actions run35653054590 succeeded deploying2de9b13763cdfb263327c6ccffa9e80ca57b508c. Public HTTP200, published source byte parity, all54 audio URLs, and all4 live browser tests passed."
       }
     ],
     "evidence_expectations": [
@@ -101,8 +102,25 @@
       "Human listening preference remains subjective"
     ],
     "closeout": {
-      "state": null,
-      "summary": null
+      "state": "complete",
+      "summary": "Published54 Sunset-recorded voice auditions with Broadway-inspired gallery, filters, sorting, favorites, queue, lucky selection, original-film history and reproducible installation.",
+      "proof_level": "automated-recording-and-live-browser-verification",
+      "validation_commands": [
+        "python3 scripts/verify-catalog.py",
+        "PLAYWRIGHT_CHANNEL=chrome npm test",
+        "TEST_BASE_URL=https://bokmann.github.io/voice-auditions/ PLAYWRIGHT_CHANNEL=chrome npm test",
+        "teamwork process-flow validate --path docs/imaginarium/teamwork/launch/process-flow.json"
+      ],
+      "not_claimed": [
+        "Full human listening/editorial acceptance",
+        "Native-language fluency of world presets reading English",
+        "All-browser accessibility conformance"
+      ],
+      "residual_risk": "Browser playback policies vary; voice suitability and pronunciation require listener judgment.",
+      "published_url": "https://bokmann.github.io/voice-auditions/",
+      "deployment_run": "https://github.com/bokmann/voice-auditions/actions/runs/35653054590",
+      "site_commit": "2de9b13763cdfb263327c6ccffa9e80ca57b508c"
     }
-  }
+  },
+  "updated_at": "2026-09-21T20:46:58.489615+00:00"
 }

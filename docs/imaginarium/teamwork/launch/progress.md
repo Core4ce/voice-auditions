@@ -11,3 +11,7 @@
 - Global 1Password Git signing returned a buffer error. Preserve global signing
   configuration; retry commit and, if unavailable, use a one-command unsigned
   local commit for this new public project. No signing requirement exists here.
+- 2026-09-21 20:47 UTC — Published site passed all four browser tests at its
+  public GitHub Pages URL; source/manifest byte parity and all54 audio URLs
+  verified. Scope complete. Final documentation records automated proof and
+  explicitly leaves listening taste/native-language claims unasserted.
