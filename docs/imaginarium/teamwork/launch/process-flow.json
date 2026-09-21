@@ -22,7 +22,7 @@
       "New models or voice cloning",
       "Runtime servers or unrelated host changes"
     ],
-    "status": "in_progress",
+    "status": "complete",
     "stop_lines": [
       {
         "id": "bounds",
@@ -54,7 +54,7 @@
         "slice_id": 4,
         "id": "core4ce-transfer",
         "title": "Transfer ownership and verify organization Pages publication",
-        "status": "in_progress"
+        "status": "complete"
       }
     ],
     "review_gates": [
@@ -94,11 +94,12 @@
         "id": "core4ce-publication",
         "name": "Core4ce Pages and MIT license",
         "kind": "evidence-gate",
-        "status": "pending",
+        "status": "passed",
         "expectations": [
           "Public Core4ce repository recognized as MIT",
           "Organization Pages URL serves updated source and working audio"
-        ]
+        ],
+        "evidence": "Core4ce/voice-auditions is public, GitHub detects MIT, Pages run35654313470 succeeded for7100a8c. Updated HTML byte parity and all4 public browser tests passed at core4ce.github.io/voice-auditions."
       }
     ],
     "evidence_expectations": [
@@ -124,13 +125,13 @@
       "Human listening preference remains subjective"
     ],
     "closeout": {
-      "state": null,
+      "state": "complete",
       "summary": "Published54 Sunset-recorded voice auditions with Broadway-inspired gallery, filters, sorting, favorites, queue, lucky selection, original-film history and reproducible installation.",
       "proof_level": "automated-recording-and-live-browser-verification",
       "validation_commands": [
         "python3 scripts/verify-catalog.py",
         "PLAYWRIGHT_CHANNEL=chrome npm test",
-        "TEST_BASE_URL=https://bokmann.github.io/voice-auditions/ PLAYWRIGHT_CHANNEL=chrome npm test",
+        "TEST_BASE_URL=https://core4ce.github.io/voice-auditions/ PLAYWRIGHT_CHANNEL=chrome npm test",
         "teamwork process-flow validate --path docs/imaginarium/teamwork/launch/process-flow.json"
       ],
       "not_claimed": [
@@ -139,9 +140,9 @@
         "All-browser accessibility conformance"
       ],
       "residual_risk": "Browser playback policies vary; voice suitability and pronunciation require listener judgment.",
-      "published_url": "https://bokmann.github.io/voice-auditions/",
-      "deployment_run": "https://github.com/bokmann/voice-auditions/actions/runs/35653054590",
-      "site_commit": "2de9b13763cdfb263327c6ccffa9e80ca57b508c",
+      "published_url": "https://core4ce.github.io/voice-auditions/",
+      "deployment_run": "https://github.com/Core4ce/voice-auditions/actions/runs/35654313470",
+      "site_commit": "7100a8cb073943c82007f0c592c26db7ac1ae794",
       "changed_files": [
         ".github/workflows/pages.yml",
         ".gitignore",
@@ -227,5 +228,5 @@
       "next_workflow": "Human listening and project feedback; no additional automated work is required for this launch."
     }
   },
-  "updated_at": "2026-09-21T20:46:58.489615+00:00"
+  "updated_at": "2026-09-21T20:59:41.349189+00:00"
 }

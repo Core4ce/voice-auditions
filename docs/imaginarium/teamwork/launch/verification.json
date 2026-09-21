@@ -46,5 +46,20 @@
       "audio/af_alloy.mp3"
     ],
     "audioFilesServed": 54
+  },
+  "core4ceTransfer": {
+    "verifiedAt": "2026-09-21T20:59:41.349918+00:00",
+    "repository": "Core4ce/voice-auditions",
+    "public": true,
+    "license": "MIT",
+    "url": "https://core4ce.github.io/voice-auditions/",
+    "deploymentRun": 35654313470,
+    "siteCommit": "7100a8cb073943c82007f0c592c26db7ac1ae794",
+    "browserTestsPassed": 4,
+    "byteParity": [
+      "index.html",
+      "credits.html"
+    ],
+    "noCloudCopy": "Published; specifically describes offline speech synthesis and script custody during recording."
   }
 }
