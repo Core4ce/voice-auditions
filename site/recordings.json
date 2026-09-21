@@ -1,0 +1,1862 @@
+{
+  "recordings": {
+    "af_alloy": {
+      "duration": 32.775,
+      "bytes": 394317,
+      "sha256": "cc364d99f117be47d090a8910198c7726074b86f60a4a3ef68c8740dda590bbb",
+      "textSha256": "a33fa825ed2d1060c6790b17054d5b1ddcb92a978ab5b6b36142f3927bd7ce3e",
+      "inputSha256": "38a0eefb0e773c9a44e6df09f62e0593863327b8f74e983a96a103712592938c",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:34:23.579578+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "am_adam": {
+      "duration": 35.15,
+      "bytes": 422829,
+      "sha256": "1546bdd6b550fd2eea000215ec57053ea3fc5c5092909809a4bc8db74f1f616e",
+      "textSha256": "5c4e98401a4c72f1e7dfbd476820a0aa9e77c383d665e03abf439867de5b91ca",
+      "inputSha256": "8112c28fd1b99ad7fa6b2fc93b62320c4d0d0f8ea101ca3775dc5f9a0f023489",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:34:26.771403+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "bf_alice": {
+      "duration": 33.275,
+      "bytes": 400365,
+      "sha256": "65ccb4731727f38ffdd71f9aea54382a1a90439d5bd5abcec6a52407b112b610",
+      "textSha256": "552746f152dd11f877ff2fb8584be5811b860605b0173c791700ba385ea3b22a",
+      "inputSha256": "e40e9d50f57f1d933e3815452d22e9967678434a6ce0e29859d3e07870b596a6",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "b",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:34:29.891608+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "bm_daniel": {
+      "duration": 31.625,
+      "bytes": 380493,
+      "sha256": "20fc31d200b6661b543510cad331ad9f9fec17e255ad92ea8dc764d0347edb7e",
+      "textSha256": "3169763e9047aef3598395d939e98bc9934460d09dbb51513e049f8bd4933619",
+      "inputSha256": "d3c23a676000cac855d2f860c676d59ef21e3693320d7cd56231e17da464f7bd",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "b",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:34:33.002752+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "af_aoede": {
+      "duration": 35.05,
+      "bytes": 421677,
+      "sha256": "7c4e2a936113e798fad53886eeaf73ab22f2a98b9de80b766cbd18ad2a995284",
+      "textSha256": "b125995244efc867e97a3f66bab8e1357569dd0587edc52b90b89c2ddbb61c37",
+      "inputSha256": "e971056b0026bf1ff29258641f4c60a04103b79f6960f02737d4ff1acdb95f62",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:34:36.166630+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "am_echo": {
+      "duration": 33.025958,
+      "bytes": 397485,
+      "sha256": "a5f6e7b4620dd65a2dff745727854034e31bafdffcfe9c73702eaf48720a0ce4",
+      "textSha256": "021f2a4654fc31c64475455700a12a73da7d812a9752f19e0e8229a2af4ca0c1",
+      "inputSha256": "7a3efa41902caf2c09da7cfd1d7755287cea69a5b1219e8b090baf9c674895d6",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:34:39.323244+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "bf_emma": {
+      "duration": 34.0,
+      "bytes": 409005,
+      "sha256": "1f1699af9cf5b61198afea8a9a802a589a657fcf9ac3cebfcf1d289f232e930c",
+      "textSha256": "660bbf47fed1b10fc3a55e2673c43e5f92925ef3b6f8d7e21d0db78baa9ff19f",
+      "inputSha256": "26f1b3fa419ca387f43ef6ef547bfd8752127851fbd907431d09616a082148a8",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "b",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:34:42.470671+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "bm_fable": {
+      "duration": 31.85,
+      "bytes": 383373,
+      "sha256": "fdde094d7b231e1db9894a0d4540436c6e67b7ad8cefbca6418d58e9d1922b9d",
+      "textSha256": "5851eba16a0b58aa999f85f7cd5960491ab84038ca2c4891275a9a68e8708d54",
+      "inputSha256": "896dcadbca00d32019124f8b734e01f6728165c4edcc6e5afe254213ad75b232",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "b",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:34:45.629083+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "af_bella": {
+      "duration": 38.425958,
+      "bytes": 462285,
+      "sha256": "6f9f574383a6f86d1031221110cc73da7d04d3808e42223d1e21bd08afaaa8cc",
+      "textSha256": "6e1e7bb1ac1bd04a613206028af53b6b014e1cfcb16cf51139b0c4fb1b209b37",
+      "inputSha256": "b6bae67d750b24143df841010dc65b6a8a9a2a9ca741ed9373b5af9f3e3a85f5",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:34:48.873203+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "am_eric": {
+      "duration": 30.8,
+      "bytes": 370701,
+      "sha256": "faba0210e65984bf567a2f9b3d6bb4f31bd350aa64c67792510d214777a12600",
+      "textSha256": "d3f0a16b1058cb26f7994a9f3f8d46d8e985d74364dbc824811cb353d68acbf3",
+      "inputSha256": "0203193cf461c6ef3e9fa3e114b5a5812d352281cf3b9253bc08a2e102a1dca1",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:34:51.981521+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "bf_isabella": {
+      "duration": 35.225,
+      "bytes": 423693,
+      "sha256": "6198bc2ee95042d11ed788dca2dd314138120415d9494fadd3f3ca27614392d5",
+      "textSha256": "c16ee4eb7f566c18cd639810344c4f00aa9ba57284bbf38d60c53f9995aae22e",
+      "inputSha256": "24e824ba24f3057bd4922deaedcd7b5259752ec3aa613bfaf6ee31d7b3408f53",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "b",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:34:55.154846+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "bm_george": {
+      "duration": 36.675,
+      "bytes": 441261,
+      "sha256": "a5fff59dd3d3a3707e5f21cf39ef96504795cef5eb67ab40f4053495f52690d1",
+      "textSha256": "be698cf7e9d71a71517dbff0b0ff74477adbc387e5e72cfb3312698f54b3cd99",
+      "inputSha256": "7ed9bc86ffae125312d2e017c9795e2dd91e89616067c16d4cc531c1dc0c08da",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "b",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:34:58.446731+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "af_heart": {
+      "duration": 37.45,
+      "bytes": 450477,
+      "sha256": "e9cd675829655b83744c8ded363dd6ae1ffd7069f0c5c703d1db5b7c483a896c",
+      "textSha256": "846b2763b91cef7c1c041092bf29cbce26cf825a6294f775a168216c6042c01e",
+      "inputSha256": "504e137e6e20746642a7b53625e7d824d629582c46e76b12ece7d61408f2f528",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:01.737850+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "am_fenrir": {
+      "duration": 32.8,
+      "bytes": 394605,
+      "sha256": "88245c2735e5ce57713b75ea2ff4129ea0ccd2fcb2eeb2edbfd7a6f7682d3b00",
+      "textSha256": "1cabc242e1813ba317a2f528352f2c5b0ba7831583f688f1ba07af8242d9b3c8",
+      "inputSha256": "3da4ff6720abe8dab25f58e0e5d557794d1ffe144c9c9df801a9fe133165ef29",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:04.873425+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "bf_lily": {
+      "duration": 32.825,
+      "bytes": 394893,
+      "sha256": "7e4976bbd7097c9f2918da6567f43598235e0b8cd358303c24f0e02fea5390e8",
+      "textSha256": "dbe505cdb2ccc108e44c7c584494925acad5897000cecc6bc15f99aa123952f7",
+      "inputSha256": "85b28034db08d66677c47c0486cf2ca04c92ba10b0dbb808a95893b600e832b1",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "b",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:07.997828+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "bm_lewis": {
+      "duration": 37.9,
+      "bytes": 455949,
+      "sha256": "5d078f2616e72d9d6afa2d2a7451cea74238d7e0b2a10de1dbd0fd50107314b5",
+      "textSha256": "5b3b0e579b83329fd540933583dcc6c355d408b1c6fef23a4ff7ab8400b24b1e",
+      "inputSha256": "1764a590ad69dad71dc4cd33c715ef6c72b5da4644096e98be7fc6d1ad460f18",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "b",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:11.214522+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "af_jessica": {
+      "duration": 31.525,
+      "bytes": 379341,
+      "sha256": "a1212f1df93e981d2165daa1db88955b9d66de25db44911b300114f5ef01e4d4",
+      "textSha256": "e906253b0837fc91193ce0c5b74f7d0f2be4b31dd12a502f84b55dc780e0405b",
+      "inputSha256": "3bc562b257c1e91d4d93d8b420a45aaeeca7e4b28138095212350734ec5470dd",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:14.326074+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "am_liam": {
+      "duration": 31.675,
+      "bytes": 381069,
+      "sha256": "110bba0b693f225a34a596bb718fe91285e9f6f32e0c6627e44b60a983a2d264",
+      "textSha256": "9d64e07f4baa6a321964b993c21d045ca15aecd80f82f05d5e06173cbbd3472d",
+      "inputSha256": "45ede02a7b4f23ca3dbc66df9185a0f95aa58265b314ed992ad4fc86c7d31643",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:17.426026+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "af_kore": {
+      "duration": 33.2,
+      "bytes": 399501,
+      "sha256": "74a5a88b4f08df72305fa2c44aa98608293297694744391779f5b26349ab5ef2",
+      "textSha256": "1d73cff76c1f17db2a2fe02f8ba3a1d1167593bbc10cdfb1adada1263577b52f",
+      "inputSha256": "11ddf3adcf4b34c5d0d445d2cbe3d0226ee787f5d0c801e36fee5754997b1870",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:20.554986+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "am_michael": {
+      "duration": 40.5,
+      "bytes": 487053,
+      "sha256": "bb0652e7b043064eccbe4454b38d091a0c4985125fd66762830794a416446212",
+      "textSha256": "4c271b4691ba69abca46b22a0aa98a56ff02c42b9d532ab60d00315ceef8f2c9",
+      "inputSha256": "28d3ae5b3434b31e53cbde4afa6e68a79fa7a6a6974e41ab42719991c471e9fb",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:23.826934+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "af_nicole": {
+      "duration": 55.275,
+      "bytes": 664461,
+      "sha256": "183f172534de785c0fb371bca0bb8f6e0018cd11ca3ebbd10fd035d5dbc6a6d6",
+      "textSha256": "b7e154c849b6ed77d6c6e00cbe0daf07a8367380c880b38264cd5f99f7ab29fb",
+      "inputSha256": "912018c0518acb4701c48916808df380df4c85f0f659dd78c34068d8acdf4981",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:27.333983+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "am_onyx": {
+      "duration": 32.65,
+      "bytes": 392877,
+      "sha256": "5aab655d437a6e283b082a83ad7f4f8c8b31a17f73706eb22f913e74b95dcfd0",
+      "textSha256": "e5065d43efbe4354ef3680fc276fcd271679020e821c3dfb311f4fe0f36edea0",
+      "inputSha256": "1e94cfb67b117b08f051770d6d80b5ce08bc61400b100492b61bbb6d343d9c6f",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:30.475407+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "af_nova": {
+      "duration": 32.225,
+      "bytes": 387693,
+      "sha256": "da036f4f22177d1a23811c3e3bcf0ae8a7934f8f06fdba2b01fc23c3776ec4a9",
+      "textSha256": "5966b30d28ccf8364ae2187258e643fb4295ebcd6ccac11e197a479ac575d2ba",
+      "inputSha256": "606c5c3b1bbb07a196dbdcf4bba51dfa0aade235d09a24dae2df0461e915d68e",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:33.592115+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "am_puck": {
+      "duration": 31.575,
+      "bytes": 379917,
+      "sha256": "0469291bf5afecd270c44999f7c5bd1d313a331f2e665c64b4627758d0af7cc2",
+      "textSha256": "e919f78bf4363576ae16789c15368878f5d7f98e66c06ac4581f0aab4ccb54b9",
+      "inputSha256": "5225c3866f2fe916d8ac0e6677fc96004c7b4368851167ffe40ba75e1f4ce0bf",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:36.703006+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "af_river": {
+      "duration": 31.075,
+      "bytes": 373869,
+      "sha256": "cbb59ef73ca1cb83086d456692d1f126953c2cfbd672324f3f7e1b4a41f2799e",
+      "textSha256": "0a81d4cfb52c0dcfa28cfde9c0e179fde5e1952728141dc6d9d6152e0804933c",
+      "inputSha256": "0c6caeeb22d7b4931b1ea68b36c56a5a386bdfa8ae0f45e614db40e34d8c769e",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:39.810835+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "am_santa": {
+      "duration": 35.7,
+      "bytes": 429453,
+      "sha256": "925991cb74543d248393ee8d085ca0628ac19be196ccd6969e9b32fc29a98a2f",
+      "textSha256": "fb73d26882774f05c04bd61a147ee47830c031f093260c2b1ca575f404493748",
+      "inputSha256": "f11b38a0625e7c6df35a8a75cf371ee2a3e03872b2c26981351146093d5e8ec6",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:42.995837+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "af_sarah": {
+      "duration": 37.175,
+      "bytes": 447021,
+      "sha256": "70540e2516042c5e6f22057b0bce78da203831e0701a8c45f01a45ff14f40a3c",
+      "textSha256": "ce16e579fc01dab1d527240d17a6975392739c85e2802a541f1e0d431a9109fb",
+      "inputSha256": "611c6c122836dd3d71e220ae8b0ad613c8469ac3ecd66f2c23c18bd00aafff11",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:46.179577+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "af_sky": {
+      "duration": 34.9,
+      "bytes": 419949,
+      "sha256": "ca44632158db7c37bd5f48cbc32d2ee3625c47b5982844fda84820a709474983",
+      "textSha256": "0f75775f41dfe55fd15eaa68eb1dabb86d9b9ab7de701efdaa40aa4a313af41f",
+      "inputSha256": "5fecf42087224c5f7a52999b92a90a8d8599438892476fad81d122a50b06f539",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:49.344274+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "ef_dora": {
+      "duration": 30.7,
+      "bytes": 369549,
+      "sha256": "a04b31b94c470d9d3f356ae7f71e1699bf8d89073a40a07f8177ac6afcbbcc7c",
+      "textSha256": "269f8fc42bbd7aaffda26863cdd1593d774869616c62c7c68625bc35e5db4c3d",
+      "inputSha256": "101770596e13c4331a3d0de9a5232e9e9f4baf8e605da58260afa3d0fc0e017b",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:52.442608+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "em_alex": {
+      "duration": 30.975,
+      "bytes": 372717,
+      "sha256": "c7ff3315d2a865bba597f07716165998bed65863e87dfc7a561a65f63ae14c49",
+      "textSha256": "7750dbb211718e0ede69b5c537938ab36fdff2ce7730cfea4dff04a35eb32558",
+      "inputSha256": "be5620d7291e5628efd908a88cbf9c694df96ee7a2212e202b70974e23f4c272",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:55.618484+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "em_santa": {
+      "duration": 31.275,
+      "bytes": 376461,
+      "sha256": "38707e60b961c3a7ef83a4d5673b497f71c2d30784bc5d2e9fff3fb7d6f2e70a",
+      "textSha256": "a560dc2840f5dbc63ba334f5298f5417e9e762958b63be15f15663aaa644b0fe",
+      "inputSha256": "393ab6f3b56071d1311f58ad4419cfee709a68b947a5e5ee2b604f3c082a2d59",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:35:58.745768+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "ff_siwis": {
+      "duration": 32.45,
+      "bytes": 390573,
+      "sha256": "c83dd58fe6991d71474972168a533843e445943ee33b01f19652014579b34812",
+      "textSha256": "9a63abdf1bab3d6104283786c458a2f1f976861088e6437a3ddeafcb07cecd40",
+      "inputSha256": "2b6e034cce7b2081933e42ccff9920e9c5b3427e120fa58a9e2911c424da4e9a",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:01.874944+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "hf_alpha": {
+      "duration": 36.95,
+      "bytes": 444429,
+      "sha256": "3ee06b8816881fcd2c9c80941e648dfd93431ede55c9e5fb2baedc436dcbec41",
+      "textSha256": "2518793452336657a38af3ada7f2f01a85631f77afb8c2895d9bc6cdb8b927a0",
+      "inputSha256": "36903cb5fd59d031cc7de438842660a2596044243b93353c43e911c78df5a849",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:05.091215+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "hf_beta": {
+      "duration": 33.625958,
+      "bytes": 404685,
+      "sha256": "4e80f48fa03df85a51c61bfc7a0af59aa4c2ad2aa425d0391e9606b61308ded7",
+      "textSha256": "3d1f200c302860c505ae175350c6de5815f2194ce4252177779c8177841803b7",
+      "inputSha256": "3abe46f09858fb9b09d20020a2eb313e24c0e80aaef3baf2f4318f17165423e7",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:08.257535+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "hm_omega": {
+      "duration": 37.875,
+      "bytes": 455661,
+      "sha256": "899ccd404014fd25e8e7e963838decd987f835c6ce8a43d864dbcc5da9d597c7",
+      "textSha256": "1df51981c24976c028e8e38814e3a3270a38ca9f709709b8a806b68e94afe0d4",
+      "inputSha256": "2636cb764e672fe4b52385f1cada672acb3e4767b06ae4609ec8d74ff83307fd",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:11.483368+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "hm_psi": {
+      "duration": 37.225958,
+      "bytes": 447885,
+      "sha256": "77fbc55ad354025e9cefd7e4a3a76210709f7817b89680f8b577a64967029a58",
+      "textSha256": "8ae50bb335648a23240998a7cc913ca9b5ccb2a25ebf21f2aebbe00f5d2df73e",
+      "inputSha256": "7b67108f79155a14c91c8f5eeeb761d212e196e4ffddd646cdd27ea042f96fff",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:14.681566+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "if_sara": {
+      "duration": 30.35,
+      "bytes": 365229,
+      "sha256": "14082bc902686a7b77278444804299e3665e306e8f662e12b31f4f6b90226f6c",
+      "textSha256": "5e4628567a9acab2e8ed97399ce00c28e2167faaea8e6c0d053a77f134cab97d",
+      "inputSha256": "2f3ebc6db57e8c24437c6788b4089d78b11297280f4684c936df523d56c3f261",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:17.835258+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "im_nicola": {
+      "duration": 32.025,
+      "bytes": 385389,
+      "sha256": "258ef5bcff6b261d375bc843c9d5c3688ddf292515edc4e17b6cb4bb272eecaa",
+      "textSha256": "4e68bf9950ee17a0cff9daa217dd700ee8038d5a1dc6212bb07823622526cd23",
+      "inputSha256": "a5409ff310c0cb95c2ba6edf6ac1727ad060fa0f799b0b2129b2227810bc9019",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:20.950932+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "jf_alpha": {
+      "duration": 38.125,
+      "bytes": 458541,
+      "sha256": "ab506fa98fc8f8302a4dc0fe6082554076032acabe8d86ef1f7406a366b8378d",
+      "textSha256": "b51730813f5553f056427012524892e2f577497665341236e7c9e5b0900f544c",
+      "inputSha256": "c28f807de4b82da72b4a979d968c181e807bc7cc745144ec33bdb31cac6adcc0",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:24.183173+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "jf_gongitsune": {
+      "duration": 45.2,
+      "bytes": 543501,
+      "sha256": "593306fea44a887dd3be77a75d0996014416301b3b76ea27c9c4d1236d73f9a0",
+      "textSha256": "1282dc6a29384277abde0d8489e132c4f73dd539046a974ea0c7a85341165b56",
+      "inputSha256": "8367a895b5607c84681e7ab1378557c2f27a569aa3ae3f26b9fd0b5477fdda24",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:27.530729+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "jf_nezumi": {
+      "duration": 42.725,
+      "bytes": 513837,
+      "sha256": "ac15e1e1e56ebb80e18a020af25bd5d701d6aa9be2983659e1e1295c6de73f02",
+      "textSha256": "d7d31b35df385af6b4cf0f93370de3b3d3bed0d1cd4c199459eb77b252715658",
+      "inputSha256": "4776d08c22fe15cded93d02b38420cc4dd59f44d50d7ae76fb1a2433c4087a2b",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:30.856361+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "jf_tebukuro": {
+      "duration": 43.2,
+      "bytes": 519309,
+      "sha256": "fc20513b6f33f08f0a5fa1400bffee01cd105d944f9f451547e293f8979c7d14",
+      "textSha256": "1e3f1050e38ff3beb1ed0b9eacbf36566dc6e635c0aa7ee65d6e1da58520458b",
+      "inputSha256": "1bdb0c90f664513a7f0d8427742caf66d57cc9e94f262c98227e619344f95543",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:34.164038+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "jm_kumo": {
+      "duration": 38.875,
+      "bytes": 467469,
+      "sha256": "6463942d44edb2622b7d1abd45c8121058896025f237e61e654eeda525a99027",
+      "textSha256": "b083ed7866d4ac05d6697874357655e87a5ef4ee730ddb52d801e0cf82bd1d44",
+      "inputSha256": "db6ebb8b714f684586d7f12c070fc4b75824e6cb32c43c3c1396e42ddc88c415",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:37.406703+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "pf_dora": {
+      "duration": 31.725,
+      "bytes": 381645,
+      "sha256": "919604393a71a943cb2bec85a04f3ad9e0047c029271945a60c7a7d73b5fd38d",
+      "textSha256": "6e7c32d0a07baae0cd94418ebf0edd921f23adec5a20cfef903bc60c70bbdfb8",
+      "inputSha256": "54bce12820592b29c04db4fca1a7be4f955d7887a640407a8d0641fb36698c12",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:40.543460+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "pm_alex": {
+      "duration": 31.925,
+      "bytes": 384237,
+      "sha256": "83a0deb9e9d79eb88b94f01dc76610bd9fa526a3a572284b7e1466ef9d3cdfb0",
+      "textSha256": "034ce068e94f02678ff97796e2ddbac2497be706ffd1463668fd30793455557c",
+      "inputSha256": "03b61a06a2deed8fc92ec050a359807ec8575e7eb74b1525e7dcd10c9d1a6d5f",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:43.655809+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "pm_santa": {
+      "duration": 32.55,
+      "bytes": 391725,
+      "sha256": "4e6d5124fd099aec73e15343f362d972f8ac1afbfe111fcd08d576caacc9a678",
+      "textSha256": "40d5568db9864305d702991d4a058bdfcb9076806286d41a4e09aefe75b99091",
+      "inputSha256": "db75ed66b35622465a53434a0b2b3e5a4fcf2b88ac93bfbdc6cb7845ad27f7ce",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:46.809868+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "zf_xiaobei": {
+      "duration": 37.6,
+      "bytes": 452205,
+      "sha256": "e664096d874b6ff4f8cd7186222717a7b91f03689559aea48cbed1e4e528b03b",
+      "textSha256": "0093c69cfe816d864c3197ff52797ec84bf064dc4654e339ec1b4fa9637cbd6c",
+      "inputSha256": "09ad2bedf80f2b8575caf4fb34ea51989e8c1a5e31589d165340ce084b33bc76",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:50.034247+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "zf_xiaoni": {
+      "duration": 34.1,
+      "bytes": 410157,
+      "sha256": "9393f2b543484bb9546d91f00886b5c3519ce1f49571addf581007988b1d22f0",
+      "textSha256": "e0dbb7364589ccfe4bf5900b0ba205d2db152abfa27e4b6f4884a022ce39d980",
+      "inputSha256": "13bab574a32d2892e779070b6f19d7ae96a04eac15521216b8724fbf11ac33a1",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:53.206992+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "zf_xiaoxiao": {
+      "duration": 32.9,
+      "bytes": 395757,
+      "sha256": "ba4c94e54e5c1139b1c4a7d7c76f0b6b990917555ef4197b3870e5b9f13cda65",
+      "textSha256": "444c43a72e4fed5422f1bb830f98efe22c5a856bbc349631c9281d0bc2c1bb8b",
+      "inputSha256": "9005f474137bbf0a8ff6213a3a29fb71d0b3de4299b81df8bbd6efcd1e783fc7",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:56.344046+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "zf_xiaoyi": {
+      "duration": 31.9,
+      "bytes": 383949,
+      "sha256": "7826bd1032f37ba32c9ce5bba2439c780c3a2debe5a8cdf2cb56353dc97838f0",
+      "textSha256": "9723515d26e672a9fbac8ca85b07d8360b6fb94b4ea427664c47c25fc78266b4",
+      "inputSha256": "70ebb17cbe000b12d37d1b3fd42df9b3c99727d79903880a4494157323e63538",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:36:59.477801+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "zm_yunjian": {
+      "duration": 31.7,
+      "bytes": 381357,
+      "sha256": "ae0ca4db2903cade9a9c0772faa25a28f1faea89e0448c58dd08143282f9c4c3",
+      "textSha256": "1d1b9fa68d0605b71b5ea29da22d54de56c3b54536eff42a2ec0f36869c06a34",
+      "inputSha256": "7da03149b9293eb6380fa82bec63c9b02b458cbe9bd6b902c94075304f306e35",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:37:02.624182+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "zm_yunxi": {
+      "duration": 31.4,
+      "bytes": 377901,
+      "sha256": "672cb398d2299556939cd1168362dc10e755985c5916ee53896448dac90d5b94",
+      "textSha256": "10f64e190f6c38d7955de74738a22779fa0a1df0ded84ed7b0387900c0a44c4d",
+      "inputSha256": "9d4baae13cb84cf26b268a3b5f5ed2e492e8c3f5e797b6ff9a32217a75169092",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:37:05.754046+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "zm_yunxia": {
+      "duration": 33.025958,
+      "bytes": 397485,
+      "sha256": "0070725f4d937ffb51fd1540c6f32d2d8f7c8dc96943263331a47ef5a9945ab0",
+      "textSha256": "51c57b7aa9d5026438ebea2cb1ee86595a1f516542a3931f3eeb0f77c3066671",
+      "inputSha256": "4b497bb9a9fbac442619e52a18473141a5d7f26c08991e543aa67e96f52a74a3",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:37:08.897495+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    },
+    "zm_yunyang": {
+      "duration": 30.3,
+      "bytes": 364653,
+      "sha256": "a0aedc46c8f3aad390a74aeda5ffeeaba132ee8df1c6608fe6e91a6b6323e593",
+      "textSha256": "2a54b0ebd7a3639aa6a864c5ad8b50c344ee2ee0abf0617e37c3bd55c9166a46",
+      "inputSha256": "3dcf05b9a73519b08967cc0edac4efe7b4eb855e3d4d739678cd9c5ffd6a9ca2",
+      "sampleRate": 24000,
+      "channels": 1,
+      "languageCode": "a",
+      "rate": 1.0,
+      "model": "mlx-community/Kokoro-82M-bf16",
+      "generatedAt": "2026-09-21T20:37:12.003402+00:00",
+      "producer": {
+        "host": "Sunset",
+        "machine": "Mac Studio",
+        "engine": "MLX-Audio",
+        "versions": {
+          "mlx-audio": "0.5.3",
+          "mlx": "0.32.2",
+          "misaki": "0.9.4"
+        },
+        "model": "mlx-community/Kokoro-82M-bf16",
+        "modelRevisions": {
+          "models--mlx-community--Kokoro-82M-bf16": [
+            "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+          ],
+          "models--prince-canuma--Kokoro-82M": [
+            "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+          ]
+        },
+        "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "decodeVerified": true
+    }
+  },
+  "schemaVersion": 1,
+  "producer": {
+    "host": "Sunset",
+    "machine": "Mac Studio",
+    "engine": "MLX-Audio",
+    "versions": {
+      "mlx-audio": "0.5.3",
+      "mlx": "0.32.2",
+      "misaki": "0.9.4"
+    },
+    "model": "mlx-community/Kokoro-82M-bf16",
+    "modelRevisions": {
+      "models--mlx-community--Kokoro-82M-bf16": [
+        "a71e4d38b236d968966a2002c4c895dbd12b1c3c"
+      ],
+      "models--prince-canuma--Kokoro-82M": [
+        "e02c9eada7ce7416798af36b190a8a2dd2ecd566"
+      ]
+    },
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "generatedAt": "2026-09-21T20:37:12.003440+00:00"
+}

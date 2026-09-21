@@ -1,0 +1,159 @@
+#!/bin/zsh
+
+set -euo pipefail
+
+bin_dir=${0:A:h}
+tts_dir="${bin_dir}/tts-kokoro"
+generator="${tts_dir}/.venv/bin/mlx_audio.tts.generate"
+
+export HF_HOME="${tts_dir}/cache/huggingface"
+export HF_HUB_OFFLINE="${SPEAK_OFFLINE:-1}"
+
+model="${SPEAK_MODEL:-mlx-community/Kokoro-82M-bf16}"
+voice="${VOICE:-af_heart}"
+speed="${SPEAK_RATE:-1.0}"
+lang_code="${SPEAK_LANG:-}"
+output_file=""
+play_audio=true
+
+usage() {
+  print -r -- "Usage: speak [-v VOICE] [-r SPEED] [-o FILE] [--no-play] [TEXT ...]"
+  print -r -- ""
+  print -r -- "Reads standard input when TEXT is omitted."
+  print -r -- ""
+  print -r -- "Options:"
+  print -r -- "  -v, --voice VOICE   Kokoro voice preset (default: ${voice})"
+  print -r -- "  -r, --rate SPEED    Speech-speed multiplier (default: ${speed})"
+  print -r -- "  -o, --output FILE   Keep generated audio at FILE (.wav by default)"
+  print -r -- "      --no-play       Generate without playing"
+  print -r -- "      --voices        Show all locally cached voice presets"
+  print -r -- "  -h, --help          Show this help"
+}
+
+show_voices() {
+  voice_cache="${HF_HOME}/hub/models--prince-canuma--Kokoro-82M/snapshots"
+  voice_files=("${voice_cache}"/*/voices/*.safetensors(N))
+  if (( ${#voice_files} > 0 )); then
+    for voice_file in "${voice_files[@]}"; do
+      print -r -- "${voice_file:t:r}"
+    done | sort
+  else
+    print -r -- "American: af_heart af_bella af_nova af_sky am_fenrir am_michael"
+    print -r -- "British:  bf_alice bf_emma bf_isabella bm_daniel bm_fable bm_george"
+  fi
+}
+
+while (( $# > 0 )); do
+  case "$1" in
+    -v|--voice)
+      (( $# >= 2 )) || { print -u2 -- "speak: missing voice"; exit 2; }
+      voice="$2"
+      shift 2
+      ;;
+    -r|--rate)
+      (( $# >= 2 )) || { print -u2 -- "speak: missing speed"; exit 2; }
+      speed="$2"
+      shift 2
+      ;;
+    -o|--output)
+      (( $# >= 2 )) || { print -u2 -- "speak: missing output path"; exit 2; }
+      output_file="$2"
+      shift 2
+      ;;
+    --no-play)
+      play_audio=false
+      shift
+      ;;
+    --voices)
+      show_voices
+      exit 0
+      ;;
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    --)
+      shift
+      break
+      ;;
+    -*)
+      print -u2 -- "speak: unknown option: $1"
+      usage >&2
+      exit 2
+      ;;
+    *)
+      break
+      ;;
+  esac
+done
+
+if (( $# > 0 )); then
+  text_input="$*"
+elif [[ ! -t 0 ]]; then
+  text_input=$(<&0)
+else
+  print -u2 -- "speak: provide text as arguments or standard input"
+  exit 2
+fi
+
+[[ -n "${text_input//[[:space:]]/}" ]] || {
+  print -u2 -- "speak: text is empty"
+  exit 2
+}
+
+[[ -x "$generator" ]] || {
+  print -u2 -- "speak: MLX-Audio runtime not found at ${generator}"
+  exit 1
+}
+
+if [[ -z "$lang_code" ]]; then
+  case "$voice" in
+    b*) lang_code=b ;;
+    *)  lang_code=a ;;
+  esac
+fi
+
+if [[ -n "$output_file" ]]; then
+  output_file=${output_file:A}
+  output_dir=${output_file:h}
+  output_name=${output_file:t}
+  if [[ "$output_name" == *.* ]]; then
+    audio_format=${output_name:e}
+    file_prefix=${output_name:r}
+  else
+    audio_format=wav
+    file_prefix=$output_name
+    output_file="${output_file}.wav"
+  fi
+  mkdir -p "$output_dir"
+else
+  output_dir=$(mktemp -d "${TMPDIR:-/tmp}/imaginarium-speak.XXXXXX")
+  file_prefix=speech
+  audio_format=wav
+  trap 'command rm -rf -- "$output_dir"' EXIT
+fi
+
+args=(
+  --model "$model"
+  --text "$text_input"
+  --voice "$voice"
+  --speed "$speed"
+  --lang_code "$lang_code"
+  --output_path "$output_dir"
+  --file_prefix "$file_prefix"
+  --audio_format "$audio_format"
+  --join_audio
+)
+
+$play_audio && args+=(--play)
+
+"$generator" "${args[@]}"
+
+if [[ -n "$output_file" ]]; then
+  generated_file="${output_dir}/${file_prefix}.${audio_format}"
+  [[ -f "$generated_file" ]] || {
+    print -u2 -- "speak: expected output was not created: ${generated_file}"
+    exit 1
+  }
+  print -r -- "$generated_file"
+fi

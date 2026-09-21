@@ -1,0 +1,13 @@
+node_modules/
+.venv/
+__pycache__/
+.local/
+playwright-report/
+test-results/
+.DS_Store
+*.wav
+.render/
+runtime/tts-kokoro/
+recording.log
+recording.exit
+.render-smoke.wav

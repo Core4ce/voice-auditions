@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-09-21T20:45:10.956157+00:00",
+  "recordings": {
+    "count": 54,
+    "seconds": 1877.02979,
+    "bytes": 22581918,
+    "producer": "Sunset Mac Studio",
+    "fullDecode": "passed on producer and after transfer",
+    "catalogHashVerification": "passed",
+    "resume": "all54 skipped unchanged"
+  },
+  "browser": {
+    "command": "PLAYWRIGHT_CHANNEL=chrome npm test",
+    "tests": 4,
+    "passed": 4,
+    "viewportChecks": [
+      "1440x1050",
+      "390x844"
+    ],
+    "visualInspection": [
+      "desktop hero",
+      "desktop cards",
+      "mobile hero",
+      "mobile cards and player"
+    ],
+    "scope": "Chromium via installed Google Chrome, not all-browser or full human listening acceptance"
+  },
+  "publication": {
+    "status": "pending"
+  }
+}

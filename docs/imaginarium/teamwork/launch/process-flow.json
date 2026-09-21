@@ -1,0 +1,108 @@
+{
+  "schema_version": "teamwork.process_flow/v1",
+  "entrypoint": "existing-project-traunche",
+  "project": {
+    "id": "voice-auditions",
+    "name": "Voice Auditions",
+    "context": "existing_project"
+  },
+  "traunche": {
+    "id": "launch",
+    "objective": "Build and publish the user-approved Broadway-inspired voice audition website with 54 Sunset-rendered recordings and reproducible production code.",
+    "scope": [
+      "Independent repository and static GitHub Pages site",
+      "All54 local Kokoro presets recorded on Sunset using agreed passage",
+      "Voice cards, gender/accent/language filters, sorting, Play All and Lucky",
+      "History, punctuation guide, provenance and installation instructions",
+      "Public GitHub repository and Pages publication authorized by user"
+    ],
+    "non_goals": [
+      "Paid services",
+      "New models or voice cloning",
+      "Runtime servers or unrelated host changes"
+    ],
+    "status": "in_progress",
+    "stop_lines": [
+      {
+        "id": "bounds",
+        "description": "Stop for credentials, destructive action, paid services or unrelated machine changes.",
+        "threshold": "Step exceeds authorized project and isolated Sunset rendering scope",
+        "status": "active"
+      }
+    ],
+    "slices": [
+      {
+        "slice_id": 1,
+        "id": "record",
+        "title": "Sunset production and reproducible pipeline",
+        "status": "complete"
+      },
+      {
+        "slice_id": 2,
+        "id": "site",
+        "title": "Static audition experience",
+        "status": "complete"
+      },
+      {
+        "slice_id": 3,
+        "id": "publish",
+        "title": "Verify and publish GitHub Pages",
+        "status": "in_progress"
+      }
+    ],
+    "review_gates": [
+      {
+        "id": "recordings",
+        "name": "54 recordings integrity",
+        "kind": "evidence-gate",
+        "status": "passed",
+        "expectations": [
+          "All54 decode with nonzero duration and per-file provenance",
+          "Exact approved passage and local host generation"
+        ],
+        "evidence": "All54 Sunset recordings:31m17s,22581918bytes. Full decode, catalog text/output hashes and unchanged cache resume verified. site/recordings.json."
+      },
+      {
+        "id": "experience",
+        "name": "Browser behavior",
+        "kind": "evidence-gate",
+        "status": "passed",
+        "expectations": [
+          "Filters, sorting, playback, queue, lucky and keyboard controls work",
+          "Responsive layout and no browser errors"
+        ],
+        "evidence": "Four Playwright tests passed in Google Chrome: actual playback, end-driven queue advancement, filters,sort,favorites,lucky,errors,mobile overflow,keyboard and all54 audio URLs. Desktop/mobile screenshots visually inspected."
+      },
+      {
+        "id": "publication",
+        "name": "Live Pages",
+        "kind": "evidence-gate",
+        "status": "pending",
+        "expectations": [
+          "Public URL loads matching published commit and audio plays"
+        ]
+      }
+    ],
+    "evidence_expectations": [
+      "Recordings manifest",
+      "Automated browser checks and visual inspection",
+      "GitHub Pages deployment and live verification"
+    ],
+    "findings": [
+      {
+        "id": "preview-range",
+        "status": "remediated",
+        "summary": "Python basic HTTP preview did not support audio seeking; use standard http-server with byte-range support."
+      }
+    ],
+    "remediation_items": [],
+    "unresolved_risks": [
+      "English script uses English phonemization for non-English presets; not native-language quality proof",
+      "Human listening preference remains subjective"
+    ],
+    "closeout": {
+      "state": null,
+      "summary": null
+    }
+  }
+}
